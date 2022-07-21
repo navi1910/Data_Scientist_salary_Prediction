@@ -65,7 +65,8 @@ lm_l.fit(X_train, y_train)
 
 #Random Tree
 from sklearn.ensemble import RandomForestRegressor
-rf = RandomForestRegressor()
+rf = RandomForestRegressor(criterion='mse', max_features='log2', n_estimators=170)
+rf.fit(X_train, y_train)
 np.mean(cross_val_score(rf, X_train, y_train, scoring = 'neg_mean_absolute_error', cv= 3))
 
 #Tune models using GridsearchCV algorithm
@@ -94,7 +95,7 @@ best_estimator1
 #RandomForestRegressor(criterion='mse', max_features='log2', n_estimators=170)
 
 import pickle
-pickl = {'model': best_estimator1}
+pickl = {'model': rf}
 pickle.dump( pickl, open( 'model_file' + ".p", "wb" ) )
 
 file_name = "model_file.p"
@@ -105,3 +106,4 @@ with open(file_name, 'rb') as pickled:
 model.predict(X_test.iloc[1, :].values.reshape(1,-1))
 
 list(X_test.iloc[1, :])
+

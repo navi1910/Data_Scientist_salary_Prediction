@@ -7,4 +7,4 @@ data = {"input": data_in}
 
 r = requests.get(URL,headers=headers, json=data) 
 
-r.json() 
+r.json()

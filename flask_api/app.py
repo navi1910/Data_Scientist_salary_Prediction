@@ -3,6 +3,7 @@ from flask import Flask, jsonify, request
 import json
 from data_input import data_in
 import numpy as np
+import pickle
 
 def load_models():
     file_name = "models/model_file.p"
@@ -18,7 +19,7 @@ def predict():
     request_json = request.get_json()
     x = request_json['input']
     #print x
-    x_in = np.arra(x).reshape(1,-1)
+    x_in = np.array(x).reshape(1,-1)
     #load_model
     model = load_models()
     prediction = model.predict(x_in)[0]
