@@ -76,12 +76,12 @@ gs = GridSearchCV(rf, parameters, scoring = 'neg_mean_absolute_error', cv = 3)
 gs.fit(X_train, y_train)
 
 gs.best_score_
-gs.best_estimator_
+best_estimator1 = gs.best_estimator_
 
 # test ensembles 
 tpred_smodel = smodel.predict(X_test)
 tpred_lml = lm_l.predict(X_test)
-tpred_rf = gs.best_estimator_.predict(X_test)
+tpred_rf = best_estimator1.predict(X_test)
 
 from sklearn.metrics import mean_absolute_error
 mean_absolute_error(y_test,tpred_smodel)
@@ -89,3 +89,19 @@ mean_absolute_error(y_test,tpred_lml)
 mean_absolute_error(y_test,tpred_rf)
 
 mean_absolute_error(y_test,(tpred_smodel+tpred_rf)/2)
+
+best_estimator1
+#RandomForestRegressor(criterion='mse', max_features='log2', n_estimators=170)
+
+import pickle
+pickl = {'model': best_estimator1}
+pickle.dump( pickl, open( 'model_file' + ".p", "wb" ) )
+
+file_name = "model_file.p"
+with open(file_name, 'rb') as pickled:
+    data = pickle.load(pickled)
+    model = data['model']
+      
+model.predict(X_test.iloc[1, :].values.reshape(1,-1))
+
+list(X_test.iloc[1, :])
