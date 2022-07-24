@@ -79,9 +79,17 @@ The data was explored for better understanding by creating plots and pivot table
 - First we created dummy variables for the categorical variables. 
 - The data was split into training data (80%) and testing data (20%).
 - Three different models were created and they were evaluated using Mean Absolute Error.
+- The Random Forest model was optimized using GridsearchCV to hypertune and obtain the best parameters for the model.
 
 The three different models are:
 
-*Multiple Linear Regression – Baseline for the model
-*Lasso Regression – Because of the sparse data from the many categorical variables, I thought a normalized regression like lasso would be effective.
-*Random Forest – Because of the sparsity associated with the data.
+* Multiple Linear Regression – Baseline for the model
+* Lasso Regression – Because of the sparse data from the many categorical variables, I thought a normalized regression like lasso would be effective.
+* Random Forest – Because of the sparsity associated with the data.
+
+## Model Performance and Evaluation
+The Random Forest Model which was optimized using GridsearchCV was the best model as it out-performed all the other models.
+
+- Linear Regression: MAE - 826882167.7812284
+- Lasso Regrssion: MAE - 24.265736178287195
+- Random Forest Regressor - 17.919031712567097
