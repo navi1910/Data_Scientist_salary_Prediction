@@ -28,3 +28,23 @@ For Web Framework Requirements: ```pip install -r requirements.txt```
 ## Acknowledgements
 
  - [Ken Jee Youtube Channel](https://www.youtube.com/c/KenJee1)
+
+## Web Scrapping
+Web Scrapping was done using selenium. The code available on the above mentioned github repo was modified according to my particular needs.
+
+ The following attributes were scrapped for each job posting on Glassdoor.
+
+- Job title
+- Salary Estimate
+- Job Description
+- Rating
+- Company
+- Location
+- Company Headquarters
+- Company Size
+- Company Founded Date
+- Type of Ownership
+- Industry
+- Sector
+- Revenue
+- Competitors
