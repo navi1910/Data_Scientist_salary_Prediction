@@ -74,3 +74,14 @@ The data was explored for better understanding by creating plots and pivot table
 ![Average Salary according to Sector](https://github.com/navi1910/Glassdoor-Data-Salary-Prediction/blob/main/Average%20Salary%20according%20to%20Sector.png 'Average Salary according to Sector.')
 ![Attributes Correlation heatmap](https://github.com/navi1910/Glassdoor-Data-Salary-Prediction/blob/main/Correlation%20heatmap%20of%20the%20Attributes.png 'Attributes Correlation heatmap')
 ![No. of job openings according to sector](https://github.com/navi1910/Glassdoor-Data-Salary-Prediction/blob/main/No.%20of%20job%20openings%20according%20to%20sector.png 'No. of job openings according to sector')
+
+## Model Building
+- First we created dummy variables for the categorical variables. 
+- The data was split into training data (80%) and testing data (20%).
+- Three different models were created and they were evaluated using Mean Absolute Error.
+
+The three different models are:
+
+*Multiple Linear Regression – Baseline for the model
+*Lasso Regression – Because of the sparse data from the many categorical variables, I thought a normalized regression like lasso would be effective.
+*Random Forest – Because of the sparsity associated with the data.
