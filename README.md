@@ -93,3 +93,10 @@ The Random Forest Model which was optimized using GridsearchCV was the best mode
 - Linear Regression: MAE - 826882167.7812284
 - Lasso Regrssion: MAE - 24.265736178287195
 - Random Forest Regressor - 17.919031712567097
+
+## Productionization using Flask
+In this step, a flask API endpoint was built(hosted on a local webserver).
+
+The API endpoint takes in a request with a list of values from a job listing and returns an estimated salary.
+
+The reference used is mentioned above.
