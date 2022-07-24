@@ -48,3 +48,22 @@ Web Scrapping was done using selenium. The code available on the above mentioned
 - Sector
 - Revenue
 - Competitors
+
+## Data Cleaning and Feature Engineering
+Once the data was scrapped, data cleaning and feature Engineering was done in order to make suitable to create models.
+
+- Parsed numeric data out of salary
+- Made columns for employer provided salary and hourly wages
+- Removed rows without salary
+- Parsed rating out of company text
+- Made a new column for company state
+- Added a column for if the job was at the company’s headquarters
+- Transformed founded date into age of company
+- Made columns for if different skills were listed in the job description:
+    * Python
+    * R
+    * Excel
+    * AWS
+    * Spark
+- Column for simplified job title and Seniority
+- Column for description length
