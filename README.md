@@ -1,7 +1,7 @@
 
 # Glassdoor - Data Scientist Salary Prediction
 
-The objective of the project is to predict the average salary of a data scientist in the US according to the data in the Glassdoor website.
+The objective of the project is to predict the average salary of a data scientist in the US according to the data on Glassdoor website.
 
 
 
@@ -9,7 +9,7 @@ The objective of the project is to predict the average salary of a data scientis
 
 1. Created a tool that can estimate the data scientist salaries that can help data scientists determine the average salary according to the specifications, which may help them negotiate their salary.
 2. Scrapped data from Glassdoor website using python and selenium.
-3. Linear Regression, Lasso Regression and Random Forest models were created and evaluated. Optimised the model using GridsearchCV to get the best model.
+3. Linear Regression, Lasso Regression and Random Forest Regressor models were created and evaluated. Optimised the model using GridsearchCV to get the best model.
 4. Built client facing API using Flask.
 
 ## Code and Resources used
@@ -30,7 +30,7 @@ For Web Framework Requirements: ```pip install -r requirements.txt```
  - [Ken Jee Youtube Channel](https://www.youtube.com/c/KenJee1)
 
 ## Web Scrapping
-Web Scrapping was done using selenium. The code available on the above mentioned github repo was modified according to my particular needs.
+Web Scrapping was done using selenium. The code available on the above mentioned github repo was modified according to the project's particular needs.
 
  The following attributes were scrapped for each job posting on Glassdoor.
 
