@@ -70,7 +70,7 @@ Once the data was scrapped, data cleaning and feature Engineering was done in or
 
 ## Exploratory Data Analysis
 The data was explored for better understanding by creating plots and pivot tables. Here are some of the highlights that I found.
-![alt text](https://github.com/navi1910/Glassdoor-Data-Salary-Prediction/blob/main/Average%20Salary%20according%20to%20Job%20Position.png =100x20 'Average Salary according to job postings.')
-![alt text](https://github.com/navi1910/Glassdoor-Data-Salary-Prediction/blob/main/Average%20Salary%20according%20to%20Sector.png 'Average Salary according to Sector.')
-![alt text](https://github.com/navi1910/Glassdoor-Data-Salary-Prediction/blob/main/Correlation%20heatmap%20of%20the%20Attributes.png 'Attributes Correlation heatmap')
-![alt text](https://github.com/navi1910/Glassdoor-Data-Salary-Prediction/blob/main/No.%20of%20job%20openings%20according%20to%20sector.png 'No. of job openings according to sector')
+![Average Salary according to job postings](https://github.com/navi1910/Glassdoor-Data-Salary-Prediction/blob/main/Average%20Salary%20according%20to%20Job%20Position.png =400*400'Average Salary according to job postings.')
+![Average Salary according to Sector](https://github.com/navi1910/Glassdoor-Data-Salary-Prediction/blob/main/Average%20Salary%20according%20to%20Sector.png 'Average Salary according to Sector.')
+![Attributes Correlation heatmap](https://github.com/navi1910/Glassdoor-Data-Salary-Prediction/blob/main/Correlation%20heatmap%20of%20the%20Attributes.png 'Attributes Correlation heatmap')
+![No. of job openings according to sector](https://github.com/navi1910/Glassdoor-Data-Salary-Prediction/blob/main/No.%20of%20job%20openings%20according%20to%20sector.png 'No. of job openings according to sector')
