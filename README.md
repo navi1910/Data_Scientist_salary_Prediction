@@ -18,7 +18,7 @@ Python Version: 3.7
 
 Packages: pandas, numpy, sklearn, matplotlib, seaborn, selenium, flask, json, pickle
 
-For Web Framework Requirements: pip install -r requirements.txt
+For Web Framework Requirements: '''pip install -r requirements.txt'''
 
  - [Git Hub repo](https://github.com/PlayingNumbers/ds_salary_proj)
  - [Scraper Github](https://github.com/arapfaik/scraping-glassdoor-selenium)
