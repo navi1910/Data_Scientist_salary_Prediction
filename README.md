@@ -67,3 +67,7 @@ Once the data was scrapped, data cleaning and feature Engineering was done in or
     * Spark
 - Column for simplified job title and Seniority
 - Column for description length
+
+## Exploratory Data Analysis
+The data was explored for better understanding by creating plots and pivot tables. Here are some of the highlights that I found.
+![alt text](https://github.com/navi1910/Glassdoor-Data-Salary-Prediction/blob/main/Exploratory_data_analysis.ipynb 'Average Salary according to job postings.')
