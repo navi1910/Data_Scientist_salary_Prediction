@@ -3,8 +3,6 @@
 
 The objective of the project is to predict the average salary of a data scientist in the US according to the data on Glassdoor website.
 
-
-
 ## Overview
 
 1. Created a tool that can estimate the data scientist salaries that can help data scientists determine the average salary according to the specifications, which may help them negotiate their salary.
@@ -70,10 +68,13 @@ Once the data was scrapped, data cleaning and feature Engineering was done in or
 
 ## Exploratory Data Analysis
 The data was explored for better understanding by creating plots and pivot tables. Here are some of the highlights that I found.
-![Average Salary according to job postings](https://github.com/navi1910/Glassdoor-Data-Salary-Prediction/blob/main/Average%20Salary%20according%20to%20Job%20Position.png 'Average Salary according to job postings.')
-![Average Salary according to Sector](https://github.com/navi1910/Glassdoor-Data-Salary-Prediction/blob/main/Average%20Salary%20according%20to%20Sector.png 'Average Salary according to Sector.')
-![Attributes Correlation heatmap](https://github.com/navi1910/Glassdoor-Data-Salary-Prediction/blob/main/Correlation%20heatmap%20of%20the%20Attributes.png 'Attributes Correlation heatmap')
-![No. of job openings according to sector](https://github.com/navi1910/Glassdoor-Data-Salary-Prediction/blob/main/No.%20of%20job%20openings%20according%20to%20sector.png 'No. of job openings according to sector')
+<img src="https://github.com/navi1910/Glassdoor-Data-Salary-Prediction/blob/main/Average%20Salary%20according%20to%20Job%20Position.png" width=50% height=50%>
+
+<img src="https://github.com/navi1910/Glassdoor-Data-Salary-Prediction/blob/main/Average%20Salary%20according%20to%20Sector.png" width=50% height=50%>
+
+<img src="https://github.com/navi1910/Glassdoor-Data-Salary-Prediction/blob/main/Correlation%20heatmap%20of%20the%20Attributes.png" width=50% height=50%>
+
+<img src="https://github.com/navi1910/Glassdoor-Data-Salary-Prediction/blob/main/No.%20of%20job%20openings%20according%20to%20sector.png" width=50% height=50%>
 
 ## Model Building
 - First we created dummy variables for the categorical variables. 
