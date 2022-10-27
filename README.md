@@ -1,7 +1,7 @@
 
 # Glassdoor - Data Scientist Salary Prediction
 
-<img src="https://github.com/navi1910/Glassdoor-Data-Salary-Prediction/blob/main/glassdoor_logo.png" width=50% height=50%>
+<img src="https://github.com/navi1910/Glassdoor-Data-Salary-Prediction/blob/main/glassdoor_logo.png" width=25% height=25%>
 
 The objective of the project is to predict the average salary of a data scientist in the US according to the data on Glassdoor website.
 
