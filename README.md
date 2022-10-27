@@ -68,13 +68,13 @@ Once the data was scrapped, data cleaning and feature Engineering was done in or
 
 ## Exploratory Data Analysis
 The data was explored for better understanding by creating plots and pivot tables. Here are some of the highlights that I found.
-<img src="https://github.com/navi1910/Glassdoor-Data-Salary-Prediction/blob/main/Average%20Salary%20according%20to%20Job%20Position.png" width=50% height=50%>
+<img src="https://github.com/navi1910/Glassdoor-Data-Salary-Prediction/blob/main/Average%20Salary%20according%20to%20Job%20Position.png" width=25% height=25%>
 
-<img src="https://github.com/navi1910/Glassdoor-Data-Salary-Prediction/blob/main/Average%20Salary%20according%20to%20Sector.png" width=50% height=50%>
+<img src="https://github.com/navi1910/Glassdoor-Data-Salary-Prediction/blob/main/Average%20Salary%20according%20to%20Sector.png" width=25% height=25%>
 
-<img src="https://github.com/navi1910/Glassdoor-Data-Salary-Prediction/blob/main/Correlation%20heatmap%20of%20the%20Attributes.png" width=50% height=50%>
+<img src="https://github.com/navi1910/Glassdoor-Data-Salary-Prediction/blob/main/Correlation%20heatmap%20of%20the%20Attributes.png" width=30% height=30%>
 
-<img src="https://github.com/navi1910/Glassdoor-Data-Salary-Prediction/blob/main/No.%20of%20job%20openings%20according%20to%20sector.png" width=50% height=50%>
+<img src="https://github.com/navi1910/Glassdoor-Data-Salary-Prediction/blob/main/No.%20of%20job%20openings%20according%20to%20sector.png" width=30% height=30%>
 
 ## Model Building
 - First we created dummy variables for the categorical variables. 
