@@ -70,6 +70,7 @@ Once the data was scrapped, data cleaning and feature Engineering was done in or
 
 ## Exploratory Data Analysis
 The data was explored for better understanding by creating plots and pivot tables. Here are some of the highlights that I found.
+
 <img src="https://github.com/navi1910/Glassdoor-Data-Salary-Prediction/blob/main/Average%20Salary%20according%20to%20Job%20Position.png" width=25% height=25%>
 
 <img src="https://github.com/navi1910/Glassdoor-Data-Salary-Prediction/blob/main/Average%20Salary%20according%20to%20Sector.png" width=25% height=25%>
